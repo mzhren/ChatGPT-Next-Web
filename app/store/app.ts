@@ -69,7 +69,7 @@ export type ModelConfig = ChatConfig["modelConfig"];
 
 export const ROLES: Message["role"][] = ["system", "user", "assistant"];
 
-const ENABLE_GPT4 = true;
+const ENABLE_GPT4 = false;
 
 export const ALL_MODELS = [
   {
